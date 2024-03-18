@@ -1,3 +1,8 @@
+@font-face {
+    font-family: calcFont;
+    src: url(Digital7-rg1mL.ttf);
+}
+
 .column {
     display: flex;
     flex-direction: column;
@@ -9,11 +14,57 @@
 }
 
 #inputField {
-    width: 290px;
-    height: 25px;
+    width: 350px;
+    height: 75px;
+    font-family: calcFont;
+    font-size: 50px;
+    background-color: #a8a892;
+    margin: 10px;
+    text-align: right;
 }
 
 button {
     width: 75px;
     height: 75px;
+}
+
+.numPad, #period {
+    background-color: #18191a;
+    color: #b0b2b5;
+    font-size: 35px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: -2px 2px 0 #020203;
+}
+
+.function, #root {
+    background-color: #b0b2b5;
+    color: #18191a; 
+    font-size: 35px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: -2px 2px 0 #020203;
+}
+
+#clear, #backspace {
+    background-color: #fa5c5c;
+    color: white;
+    font-size: 35px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: -2px 2px 0 #020203;
+}
+
+#equals {
+    background-color: white;
+    color: #18191a;
+    font-size: 35px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: -2px 2px 0 #020203;
+}
+
+#calcBody {
+    background-color: #3b3e40;
+    width: 385px;
 }

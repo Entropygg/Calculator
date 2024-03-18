@@ -1,9 +1,5 @@
 /* To do:
- refactor to allow more than one operator in an expression (add another variable that contains everything after A and B then iterate down until that is empty) - done
- . should only be allowed once per string - done
- prevent divide by 0 - done
  update CSS 
-round numbers before operation - done
 */
 
 let a = "";
